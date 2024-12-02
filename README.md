@@ -29,49 +29,6 @@ Models Used
         Purpose: Emotion recognition.
         Trained on: Custom emotion dataset (happy, sad, neutral).
 
-Installation
-Requirements
-
-    Clone this repository:
-
-git clone https://github.com/yourusername/RealTime-gender-and-emotion-detection.git
-cd RealTime-gender-and-emotion-detection
-
-Install dependencies:
-
-    conda create -n your_env_name python=3.8  # or any version you're using
-    conda activate your_env_name
-    pip install -r requirements.txt
-
-Usage
-
-    Activate the Conda environment:
-
-conda activate your_env_name
-
-Run the application:
-
-    python main.py
-
-Folder Structure
-
-RealTime-gender-and-emotion-detection/
-│
-├── gender-yolo-v8-small-epoch80/    # YOLOv8 model files
-│   ├── best.pt
-│   └── results.csv
-│
-├── emotion-fb-deit-tiny-epoch50/    # DeiT model files
-│   ├── model.safetensors
-│   └── config.json
-│
-├── training-pipeline/
-│   ├── gender-detection-yolos.ipynb
-│   └── emotion-detection-fb-deit.ipynb
-│
-├── main.py                          # Main script to run the real-time system
-├── requirements.txt
-└── README.md
 
 Future Improvements
 
